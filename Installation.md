@@ -1,15 +1,19 @@
 Learned Basic concepts
-- Installation
+- Download
+- Installation 
 - connection
 - Playground
+---
 # Installation 
-- install MongoDB
-- new connection
-- Create DB in localhost 27017
+- Download: MongoDB [click me](https://www.mongodb.com/try/download/community)
+- Install MongoDB
+- Create new connection: Select Connect (use default written localhost)
+
 - Add Data --> insert document 
 
 ---
-Connection > Databases > Collections
+#### Connection > Databases > Collections
+
 ---
 ## Inserting Data
 - `"name":"harry",""Level":"Master"`

@@ -47,4 +47,9 @@ Let Collection: Course, course, Courses
 - `db.Course.find()` : Give me all documents inside 'CrudDB'
 - `db.Course.insertOne({name:"JS"})`: adds a document
 
+#### Advantage: 
+
+- `db.Course.insertOne({name:"JS"})` Allowed in Db 
+	Only name is passed not price, still creates doc without issue
+
 ---

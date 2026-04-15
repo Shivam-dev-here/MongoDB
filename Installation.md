@@ -10,3 +10,10 @@ Description Later
 5. Create New Database: 
 	-  'select: +'
 	-  Give a Db name & Connection name
+
+---
+# Simple Structure To Understand
+
+###### Connection > Databases > Collections > Documents
+
+---

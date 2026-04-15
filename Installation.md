@@ -1,34 +1,12 @@
-Learned Basic concepts
-- Download
-- Installation 
-- connection
-- Playground
----
-# Installation 
-- Download: MongoDB [click me](https://www.mongodb.com/try/download/community)
-- Install MongoDB
-- Create new connection: Select Connect (use default written localhost)
-
-- Add Data --> insert document 
+Description Later
 
 ---
-#### Connection > Databases > Collections
+# Installation & Setup
 
----
-## Inserting Data
-- `"name":"harry",""Level":"Master"`
-
-# MongoShell
-
-- DB=Learnig_MongoDB, Collection = Levels
-- show databases
-- use db name
-- db.{collection_name}.find()
-- db.Levels.insertOne({name:"JS"})
----
-## Now Extension in vs
-
-- connect to same connection
-- playground (collection of tasks, execute like code )
-- use datas (json), run in playgr
-- 
+1. Download: MongoDB [click me](https://www.mongodb.com/try/download/community)
+2. Install MongoDB
+3. VS Code Extension: `MongoDb for VS Code`
+4. Create New Connection: Select Connect (use default written URL)
+5. Create New Database: 
+	-  'select: +'
+	-  Give a Db name & Connection name

@@ -12,8 +12,24 @@ Description Later
 	-  Give a Db name & Connection name
 
 ---
-# Simple Structure To Understand
-
+# Simple Structure to Understand
 ###### Connection > Databases > Collections > Documents
+
+---
+## Inserting Data
+
+1. Choose: Add data
+
+```
+{
+  "_id": {
+    "$oid": "69dfdee71eb8d0fb57863185"
+  },
+  "name": "Shivam-dev-here",
+  "Price": "1 Crore"
+}
+```
+
+2. Click on Insert.
 
 ---

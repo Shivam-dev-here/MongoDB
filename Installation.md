@@ -33,3 +33,18 @@ Description Later
 2. Click on Insert.
 
 ---
+# MongoShell
+
+#### Commands
+
+Let Db: CrudDB, `Learning_MongoDB, New_Playground`
+Let Collection: Course, course, Courses
+
+- `show databases`
+- `use Learning_MongoDB
+- `switch to db CrudDB`
+
+- `db.Course.find()` : Give me all documents inside 'CrudDB'
+- `db.Course.insertOne({name:"JS"})`: adds a document
+
+---

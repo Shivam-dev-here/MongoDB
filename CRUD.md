@@ -64,7 +64,12 @@ db.Courses.insertMany([
 - One: `db.Courses.updateOne({Name:"Shvam Srivastava"}, {$set: {salary:10000000}})`
 
 ---
+### Delete Documents
 
+- Many: `db.Courses.deleteOne({salary:2000})`
+- One: `db.Courses.deleteMany({salary:2000})`
+
+---
 
 
 

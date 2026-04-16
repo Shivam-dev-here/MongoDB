@@ -41,6 +41,37 @@ db.Courses.insertMany([
 ```
 
 ---
+### Find an Document
+
+- Find All
+	1. NGP
+		`let a = db.Courses.find({salary: 7000}).toArray()`
+		`console.log(a);`
+	
+	2. Good way
+		`let a = db.Courses.find({salary: 7000})`
+		`console.log(a.toArray());`
+	
+- Count All 
+	
+	`let a = db.Courses.find({salary: 7000})`
+	`console.log(a.count());`
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   - [ ] self study [Operators study]( https://www.mongodb.com/docs/manual/reference/mql/query-predicates/logical/)
 

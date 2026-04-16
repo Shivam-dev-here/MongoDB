@@ -58,13 +58,12 @@ db.Courses.insertMany([
 	`console.log(a.count());`
 
 ---
+### Update Documents
 
+- Many:  `db.Courses.updateMany({salary:7000}, {$set: {salary:2000}})`
+- One: `db.Courses.updateOne({Name:"Shvam Srivastava"}, {$set: {salary:10000000}})`
 
-
-
-
-
-
+---
 
 
 

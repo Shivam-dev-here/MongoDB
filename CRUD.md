@@ -1,6 +1,16 @@
 Operations like Create, Rename, Update & Delete.
 
 ---
+## Path
+
+```
+Root
+├── CRUD.md
+├── crud.mongodb.js
+
+```
+
+---
 ### Create a Db
 
 - `Use("CrudDB")`
@@ -70,15 +80,9 @@ db.Courses.insertMany([
 - One: `db.Courses.deleteMany({salary:2000})`
 
 ---
+### Topics for self Study
 
-
-
-
-
-
-
-  - [ ] self study [Operators study]( https://www.mongodb.com/docs/manual/reference/mql/query-predicates/logical/)
-
+- [ ] self study [Operators study]( https://www.mongodb.com/docs/manual/reference/mql/query-predicates/logical/)
 - [ ] comparison
 - [ ] Logical
 - [ ] Element
